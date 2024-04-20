@@ -195,6 +195,7 @@ function attack() {
 
 function run() {
     text.innerText = "You Life is low! , Run!!!"
+    update(locations[0])
 }
 
 function lose(){
